@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HousePricePrediction(IPT)</string>
+    <string name="predicted_price">Predicted Price: $%1$.2f</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+    <string name="error_no_response">Error: No response body.</string>
+    <string name="error_unable_to_get_prediction">Error: Unable to get prediction. Response code: %1$d</string>
+    <string name="error_message">Error: %1$s</string>
+    <string name="area_input">Input field for area in square feet</string>
+    <string name="bedrooms_input">Input field for number of bedrooms</string>
+    <string name="bathrooms_input">Input field for number of bathrooms</string>
+    <string name="predict_button">Button to get the house price prediction</string>
+    <string name="hint_area">Enter Area (sq ft)</string>
+    <string name="hint_bedrooms">Enter Number of Bedrooms</string>
+    <string name="hint_bathrooms">Enter Number of Bathrooms</string>
+    <string name="get_prediction">Get Prediction</string>
+    <string name="result_placeholder">Prediction result will be displayed here</string>
+    <string name="invalid_input">Invalid input. Please enter valid numbers for area, bedrooms, and bathrooms.</string>
+</resources>

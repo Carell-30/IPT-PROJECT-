@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Input field for area -->
+    <EditText
+        android:id="@+id/areaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_area"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"
+        android:importantForAccessibility="yes"
+        android:minHeight="48dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" />
+
+    <!-- Input field for number of bedrooms -->
+    <EditText
+        android:id="@+id/bedroomsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_bedrooms"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"
+        android:importantForAccessibility="yes"
+        android:minHeight="48dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" />
+
+    <!-- Input field for number of bathrooms -->
+    <EditText
+        android:id="@+id/bathroomsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_bathrooms"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"
+        android:importantForAccessibility="yes"
+        android:minHeight="48dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" />
+
+    <!-- Button to trigger the prediction -->
+    <Button
+        android:id="@+id/predictButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_prediction"
+        android:layout_gravity="center"
+        android:importantForAccessibility="yes" />
+
+    <!-- TextView to display the result -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_placeholder"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000" />
+
+</LinearLayout>
